@@ -1,0 +1,60 @@
+.container {
+    background-color: aqua;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    border-color: black;
+}
+
+.titre {
+    text-align: center;
+    border: solid 0.3em;
+}
+
+.pendu {
+    background: rgb(140, 15, 15);
+    flex-wrap: nowrap;
+    flex: block;
+    border: solid 0.3em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.juste {
+    background: rgb(140, 15, 15);
+    flex: block;
+    border: solid 0.3em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.date {
+    background: rgb(140, 15, 15);
+    flex: block;
+    border: solid 0.3em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.machine {
+    background: rgb(140, 15, 15);
+    flex: block;
+    border: solid 0.3em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.pin {
+    background: rgb(140, 15, 15);
+    flex: block;
+    border: solid 0.3em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.title {
+    text-align: center;
+    border: solid 0.3em;
+}

@@ -1,0 +1,280 @@
+body {
+    background-color: #03a9f4;
+}
+
+.content,
+.sidebar,
+.footer {
+    padding: 26px 34px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: #fd0054;
+    flex-basis: 83.75%;
+}
+
+.uno {
+    flex-basis: 85%;
+}
+
+.acceuil {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.acceuil {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.header {
+    flex-basis: 100%;
+    background-color: #3d0417;
+}
+
+.contactInfo {
+    padding-top: 10px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight: 300px;
+}
+
+.contactInfo.language .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(26, 22, 22);
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03af;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aqua;
+}
+
+.flex {}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav li {
+    float: left;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+.nav li:last-child {
+    border-right: none;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #111;
+}
+
+.a_propos {
+    margin-bottom: 50px;
+}
+
+.a_propos:last-child {
+    margin-bottom: 0;
+}
+
+.titre {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333
+}
+
+.a_propos .box .year_school {
+    min-width: 150px;
+}
+
+.a_propos .box .year_school h5 {
+    text-transform: uppercase;
+    color: #848c90;
+}
+
+.a_propos .box .text h4 {
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.competences .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.competences .box h4 {
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+
+.competences .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(140, 15, 15);
+}
+
+.competences .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: aqua;
+}
+
+.projets ul li {
+    list-style-type: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interets ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.interets ul li {
+    list-style-type: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interets ul li .fa {
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+}
+
+.right_side {
+    position: relative;
+    padding: 40px;
+    background-color: #74384c;
+    flex-basis: 81.5%;
+}
+
+.imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow-y: hidden;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding: 50px;
+}
+
+.try {
+    flex-basis: 10%;
+}
+
+.content {
+    background-color: #74384c;
+    flex-basis: 83.75%;
+}
+
+.pics {
+    border: 2px solid black;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.sidebar {
+    background-color: #3d0417;
+    flex-basis: 10%;
+    flex-basis: 5%;
+}
+
+.deux {
+    background-color: aqua;
+    flex-basis: 25%;
+}
+
+.footer {
+    background-color: #2b2024;
+    color: white;
+    /* width: 100%; */
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+/* @media screen and(max-width:500px) {
+    .content {
+        flex-basis: 100%;
+    }
+} */
+
+
+/* @media (max-width:1000px) {
+    .container {
+        margin: 10px;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+/* Paragraphes en bleu par défaut */
